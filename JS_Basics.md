@@ -8,11 +8,11 @@ This document highlights the differences between Java and JavaScript. This would
 #### Why is JS useful? What role does it play in web applications?
 
 #### What are JS primitives?
-	*	String 
-	*	Number 
-	*	Boolean
-	*	Null
-	*	Undefined 
+		String 
+		Number 
+		Boolean
+		Null
+		Undefined 
 
 #### Three ways to declare a variable and their differences? 
 	
