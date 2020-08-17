@@ -64,6 +64,7 @@ This document highlights the differences between Java and JavaScript. This would
 
 *	A function can also be stored in a variable, which can be used as a function later
 
+<img width="643" alt="Screen Shot 2020-08-17 at 5 43 27 PM" src="https://user-images.githubusercontent.com/54920080/90382408-4a622280-e0b1-11ea-8333-e3acb7b7fc5c.png">
 
 #### How to store multiple values with Arrays?
 
@@ -87,6 +88,7 @@ Besides from its flexibility, Arrays in JS also have more functions that are not
 
 *	JSON.stringify(arr) will return the string format of the Arrays 
 
+<img width="454" alt="Screen Shot 2020-08-17 at 5 46 27 PM" src="https://user-images.githubusercontent.com/54920080/90382628-9745f900-e0b1-11ea-96fb-88fb7a9c56f0.png">
 
 #### How to evaluate equality in JS?
 
@@ -107,6 +109,8 @@ Besides from its flexibility, Arrays in JS also have more functions that are not
 
 *	the code will exit at “break”. So if you don’t have break, just a bunch of cases, then your code will exit when at the first break. Note that each case doesn’t need to have a break statement.  
 
+<img width="287" alt="Screen Shot 2020-08-17 at 5 47 27 PM" src="https://user-images.githubusercontent.com/54920080/90382725-ba70a880-e0b1-11ea-8df9-e3d85c0c60cb.png">
+
 #### What is JS Object?
 
 *	Objects have properties and they are variables too (variables are just objects with single values)
@@ -114,6 +118,8 @@ Besides from its flexibility, Arrays in JS also have more functions that are not
 *	JS object is a collection of named values (properties). The following is a simple example of a JS object: 
 
 **note that this object variable is created using object literal, where we both define and create an object in ONE statement. This format is similar to JSON.** 
+
+<img width="715" alt="Screen Shot 2020-08-17 at 5 48 15 PM" src="https://user-images.githubusercontent.com/54920080/90382811-d5dbb380-e0b1-11ea-9a44-8c95cf2bf5dc.png">
 
 *	Another way to create a JS object is using the keyword new: 
 	       
@@ -130,14 +136,23 @@ then constructs the properties and values.
 
 *	JS objects can also be nested:
 
+<img width="275" alt="Screen Shot 2020-08-17 at 5 49 20 PM" src="https://user-images.githubusercontent.com/54920080/90382916-fdcb1700-e0b1-11ea-9112-b8db167d06fb.png">
+
 *	JSON.parse(JSON.stringify(obj)) is often used to make a copy of the object before we want to modify it
 
+#### Why do we need JS objects? What's its role in web development?
+
+*	In JS, most things are objects, such as Arrays and browser APIs built on top of JS. JS objects are created similarily to JSON format, which makes it easy to parse and send data bewteen users and servers. 
+
+*	In order for websites to be interactive, we need to have data, which is often stored in JSON format (key:value pair). Different websites have different data properties that we need to store by creating different JS objects. For example, as a web developer for an insurance company, you want to create a JS object to store user's income, occupation, and age, whereas for a music company, you need to create a different JS object with different properties, such as music genres.
+ 
 #### How to simplify if-else statement using ternary operator (?) ?
 
 *	Ternary operators can make your code more compact, but it doesn’t change the functionality or runtime.
 
 *	These 2 functions are the same, and obviously the one with ternary operator is more compact. 
 
+<img width="543" alt="Screen Shot 2020-08-17 at 5 51 22 PM" src="https://user-images.githubusercontent.com/54920080/90383110-45ea3980-e0b2-11ea-996a-7440faab843e.png">
 
 #### What is and how to create anonymous function?
 *	Anonymous function is a function declared without name identifier to refer to it
@@ -152,10 +167,11 @@ then constructs the properties and values.
  
 *	 create anonymous function with parameters: 
 
+<img width="549" alt="Screen Shot 2020-08-17 at 5 52 20 PM" src="https://user-images.githubusercontent.com/54920080/90383215-687c5280-e0b2-11ea-9062-59edbba8b296.png">
+
 
 Work on tomorrow: 
 
-add screenshots
 JS functions
 JS Array methods, sorting, iterations (higher order function (filter, map))
 
