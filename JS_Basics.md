@@ -10,17 +10,17 @@ This document highlights the differences between Java and JavaScript. This would
 
 #### Why is JS useful? What role does it play in web applications?
 
-*	It’s one of the core technologies of web development and can be used on both the front-end and the back-end ([CodeCademy] (https://www.codecademy.com/catalog/language/javascript)).
+*	It’s one of the core technologies of web development and can be used on both the front-end and the back-end. More on [CodeCademy](https://www.codecademy.com/catalog/language/javascript).
 
 *	JS provides an interface for the end users to interact by generating dynamic content to the users, whereas HTML is static. 
 
 #### What are JS primitives?
 
-    String 
-    Number 
-    Boolean
-    Null
-    Undefined 
+    string 
+    number 
+    boolean
+    null
+    undefined (It just refers to declaring a variable without giving it a value. Example: var str; )
 
 #### Three ways to declare a variable and their differences? 
 	
@@ -169,11 +169,6 @@ then constructs the properties and values.
 
 <img width="549" alt="Screen Shot 2020-08-17 at 5 52 20 PM" src="https://user-images.githubusercontent.com/54920080/90383215-687c5280-e0b2-11ea-9062-59edbba8b296.png">
 
-
-Work on tomorrow: 
-
-JS functions
-JS Array methods, sorting, iterations (higher order function (filter, map))
 
 
 
