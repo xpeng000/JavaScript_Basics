@@ -4,8 +4,15 @@ This document highlights the differences between Java and JavaScript. This would
 
 #### What’s the key difference between JS and Java?
 
+*	Java is very powerful in that it is used in many areas, such as app development, big data applications, and etc. JS is mainly used to make website more interactive.
+
+*	Java is more on the server side, whereas JS is more on developing the client side scripting. 
 
 #### Why is JS useful? What role does it play in web applications?
+
+*	It’s one of the core technologies of web development and can be used on both the front-end and the back-end ([CodeCademy] (https://www.codecademy.com/catalog/language/javascript)).
+
+*	JS provides an interface for the end users to interact by generating dynamic content to the users, whereas HTML is static. 
 
 #### What are JS primitives?
 
@@ -23,7 +30,7 @@ This document highlights the differences between Java and JavaScript. This would
   
     const myName = “Rachel”;
   
-  **Just like Java syntax, JS ends with a semi-colon and assigns with =**
+  **Just like Java syntax, JS ends with a semi-colon and assigns with = **
   
 *	var: you can use this variable through out the entire program 
 	
