@@ -30,13 +30,13 @@ This document highlights the differences between Java and JavaScript. This would
   
     const myName = “Rachel”;
   
-  **Just like Java syntax, JS ends with a semi-colon and assigns with = **
+  *Just like Java syntax, JS ends with a semi-colon and assigns with =*
   
 *	var: you can use this variable through out the entire program 
 	
 *	let: only be used in the scope you declare it. 
   
-  **You will get an error if you have to let variables with the same name in the same scope.**
+  *You will get an error if you have to let variables with the same name in the same scope.*
  
 *	const: a variable you can’t change or reassign (will get error if you change it)
   
