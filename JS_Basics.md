@@ -70,11 +70,11 @@ This document highlights the differences between Java and JavaScript. This would
 
 *	Unlike Java, you can store different data types in one array
   		    
-      var arr = [“Rachel”, 13, true]; 
+        var arr = [“Rachel”, 13, true]; 
 
 #### How to modify Arrays? 
 
-**note that Arrays in JS = ArrayLists in Java, meaning it’s more flexible because it doesn’t have a fixed length.** 
+*note that Arrays in JS = ArrayLists in Java, meaning it’s more flexible because it doesn’t have a fixed length.*
 
 Besides from its flexibility, Arrays in JS also have more functions that are not available in Java, such as .shift() and .unshift(). 
 
@@ -105,7 +105,7 @@ Besides from its flexibility, Arrays in JS also have more functions that are not
 *	Similarly with equality checkmarks, inequality can be checked with != (capable of type conversion) and !== (strict comparison)
 
 #### Switch statement?
-**note that the case in the switch statement is using STRICT comparison implicitly**
+*note that the case in the switch statement is using STRICT comparison implicitly*
 
 *	the code will exit at “break”. So if you don’t have break, just a bunch of cases, then your code will exit when at the first break. Note that each case doesn’t need to have a break statement.  
 
