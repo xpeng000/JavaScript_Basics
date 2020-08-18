@@ -50,11 +50,11 @@ This document highlights the differences between Java and JavaScript. This would
 
 *	get the length of a string
         
-      str.length
+      	str.length
     
 *	JS, like Java, uses *0-based index rule*. Use brakes notation to access letter in the string: 
   
-      str[0]
+     	str[0]
 
 #### How to declare a function in JS?
 
@@ -123,9 +123,9 @@ Besides from its flexibility, Arrays in JS also have more functions that are not
 
 *	Another way to create a JS object is using the keyword new: 
 	       
-         var newObj = new Object();
+         	var newObj = new Object();
 	
-then constructs the properties and values.
+	then constructs the properties and values.
 
 #### What are ways we can play with JS objects?
 *	Objects are mutable! You can change values by accessing properties and adding properties with . or []. 
